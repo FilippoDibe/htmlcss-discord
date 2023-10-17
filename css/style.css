@@ -23,13 +23,13 @@ nav{
     padding-top: 10px;
     font-size:15px;
 }
-.logo_head{
+.logo_head, .logo_footer{
     display: flex;
     justify-content: start;
     height: 25px;
 }
 
-ul, li {
+.linkers, .linker {
     display: flex;
     justify-content: center;
     padding: 0 8px;
@@ -51,10 +51,10 @@ a:hover{
 a:visited{
     color: white;
 }
-.login{
+.login, .bottone_footer{
     display: flex;
     justify-content: end;
-    border-radius: 25%;
+    border-radius: 28px;
     background-color:white;
     width: auto;
     padding:5px;
@@ -205,12 +205,16 @@ a:visited{
 .scaricabis{
     display: flex;
     border-radius: 28px;
-    background-color:white;
+    background-color:rgb(134, 134, 255);
     width: 200px;
     margin:auto;
     padding:15px 30px;
     margin-top: 20px;
-    
+}
+.bis:visited{
+    color: white;
+    font-size: 13;
+    text-decoration: none;
 }
 
 main .linea:nth-child(2), main .main_footer {
@@ -218,11 +222,10 @@ main .linea:nth-child(2), main .main_footer {
 }
 /* footer  */
 .footer_main{
-    height: 50vh;
-    width: 100vw;
+  
     display: flex;
-    background-color: black;
-    justify-content: center;
+    background-color: rgb(55, 55, 55);
+    justify-content: space-around;
 }
 .fine_footer{
     height: 8vh;
@@ -234,33 +237,52 @@ main .linea:nth-child(2), main .main_footer {
     border-top: solid 1px white;
 }
 .block_main{
-    height: 80%;
-    width: 27%;
-    background-color: palevioletred;
+   margin: 200px 100px;
+}
+.block_main h3{
+    color:rgb(134, 134, 255);
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.block_main img{
+    width: 15px;
+    height: 10px;
+}
+.block_main span{
+    color:white;
+}
+.icone, .icon{
     display: flex;
-    align-self: center;
-    border: dashed ;
+    justify-content: start;
+    padding: 0 8px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.list .ite:first-child{
+    font-size: 20px;
+    color: rgb(134, 134, 255);
+    
 }
 .block{
-    height: 80%;
-    width: 13%;
-    background-color: rgb(8, 157, 107);
-    border: dashed ;
     display: flex;
-    align-self: center;
+    margin-top: 200px;
+}
+.list, .ite{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: start;
+    padding:10px;
+}
+.ite{
+    color: white;
 }
 .end{
     height: 4vh;
     width: 80%;
-    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo_footer, .bottone_footer{
-    background-color: pink;
-    height: 2.5vh;
-    width: auto;
-    border: dashed ;
-}
+
 

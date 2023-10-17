@@ -6,9 +6,10 @@
 }
 /* header  */
 header{
-    background-image: url('../img/jumbo.png');
-    
+    background-image: url('../img/jumbo.png');  
+    background-size: cover;
 }
+
 .nav_container{
     display: flex;
     justify-content: center;
@@ -44,7 +45,7 @@ a{
     text-decoration: none;
 
 }
-:hover{
+a:hover{
     text-decoration: underline;
 }
 a:visited{
@@ -56,10 +57,12 @@ a:visited{
     border-radius: 25%;
     background-color:white;
     width: auto;
+    padding:5px;
 }
 .accesso:visited{
     color: black;
     font-size: 13;
+    text-decoration: none;
 }
 .accesso{
     display: flex;
@@ -67,17 +70,67 @@ a:visited{
     align-items: center;
    
 }
-.header_main{
+.jambotron{
+    width: 40%;
+    margin:auto; 
+    margin-top: 50px;
+}
+.jambotron h1{
     display: flex;
     justify-content: center;
-    /* debug */
-    height: 80%;
-    width: 60%;
-    margin:auto; 
-    margin-top: 20px;
-    background-color: rgb(222, 47, 225);
-    border-style: dashed ;
+    color: white;
+    margin-bottom: 40px;
+    text-decoration: none;
+
 }
+.jambotron p{
+    text-align: center;
+    line-height: 2;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+.botton_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.scarica{
+    display: flex;
+    border-radius: 28px;
+    background-color:white;
+    width: auto;
+    padding:15px 30px;
+}
+.mac:visited{
+    color: black;
+    font-size: 13;
+    text-decoration: none;
+}
+.mac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apri{
+    display: flex;
+    border-radius: 28px;
+    background-color:rgb(31, 31, 31);
+    width: auto;
+    padding:15px 30px;
+}
+.browser:visited{
+    color: rgb(255, 255, 255);
+    font-size: 13;
+    text-decoration: none;
+}
+.browser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* MAIN  */
 .row, .container{
     height: 40vh;
